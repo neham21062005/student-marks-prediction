@@ -39,12 +39,13 @@ The model is trained using Scikit-Learn and deployed with Streamlit for an inter
 
 ```
 student-marks-prediction/
-student-marks-prediction/
 │── app.py
-│── marks.py
 │── student_data.csv
 │── requirements.txt
 │── README.md
+│── home.png
+│── prediction.png
+│── graph.png
 ```
 
 
@@ -110,13 +111,20 @@ Predicted Marks: 85.63
 
 
 
-## 📷 Demo
 
-(Add screenshot here)
+## 📷 Demo Screenshots
 
-```
-![Demo](demo.png)
-```
+### Home Page
+
+![Home Page](home.png)
+
+### Prediction Result
+
+![Prediction](prediction.png)
+
+### Data Visualization
+
+![Graph](graph.png)
 
 
 

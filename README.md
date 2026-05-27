@@ -1,45 +1,136 @@
-📊 Student Marks Prediction
+# 🎓 Student Marks Prediction
 
-This is a simple Machine Learning project that predicts student marks based on the number of hours studied.
+A Machine Learning project that predicts student marks based on study habits and academic factors using Linear Regression.
+
+## 📌 Project Overview
+
+This project predicts student performance using multiple features:
+
+- 📚 Study Hours
+- 📅 Attendance Percentage
+- 😴 Sleep Hours
+- 📝 Previous Marks
+
+The model is trained using Scikit-Learn and deployed with Streamlit for an interactive user experience.
 
 
-🚀 Project Overview
 
-In this project, I used a Linear Regression model to understand the relationship between study hours and marks.
+## 🚀 Features
+
+✅ Predict student marks instantly  
+✅ Interactive Streamlit web app  
+✅ Data visualization using Matplotlib  
+✅ Machine Learning using Linear Regression  
+✅ Model evaluation metrics (MAE and R² Score)
 
 
-🛠️ Technologies Used
+
+## 🛠 Technologies Used
 
 - Python
 - Pandas
-- Scikit-learn
+- Scikit-Learn
+- Streamlit
+- Matplotlib
 
 
-📈 How It Works
 
-- Input: Number of hours studied
-- Output: Predicted marks
-- Model: Linear Regression
+## 📂 Project Structure
 
-
-▶️ How to Run
-
-1. Install required libraries:
-   pip install pandas scikit-learn
-2. Run the Python file:
-   python marks.py
-
-
-📌 Example Output
-
-Predicted marks for 5 hours study: 50
+```
+student-marks-prediction/
+student-marks-prediction/
+│── app.py
+│── marks.py
+│── student_data.csv
+│── requirements.txt
+│── README.md
+```
 
 
-💡 What I Learned
 
-- Basics of Machine Learning
-- Data handling using Pandas
-- Model training and prediction
+## 📊 Input Features
+
+| Feature | Description |
+|----------|-------------|
+| Study Hours | Number of study hours |
+| Attendance | Attendance percentage |
+| Sleep Hours | Daily sleep hours |
+| Previous Marks | Previous exam marks |
 
 
-This is my beginner project in AI/ML 🚀
+
+## ▶ How to Run
+
+### 1. Clone Repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_LINK
+```
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run Application
+
+```bash
+streamlit run app.py
+```
+
+
+
+## 📈 Model Performance
+
+Evaluation metrics used:
+
+- Mean Absolute Error (MAE)
+- R² Score
+
+
+
+## 🖥 Example Prediction
+
+Input:
+
+```
+Study Hours: 5
+Attendance: 90%
+Sleep Hours: 7
+Previous Marks: 60
+```
+
+Output:
+
+```
+Predicted Marks: 68
+```
+
+
+
+## 📷 Demo
+
+(Add screenshot here)
+
+```
+![Demo](demo.png)
+```
+
+
+
+## 🎯 Future Improvements
+
+- Add more student performance factors
+- Compare multiple ML models
+- Deploy application online
+- Improve dataset size
+
+---
+
+## 👩‍💻 Author
+
+Neha M
+
+Beginner AI/ML Project 🚀

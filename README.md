@@ -128,6 +128,9 @@ Predicted Marks: 85.63
 
 
 
+## 🚀 Live Demo
+
+[Open Student Marks Prediction App](https://student-marks-prediction-le6an9ynyxrnnfklfrbjal.streamlit.app/)
 ## 🎯 Future Improvements
 
 - Add more student performance factors
@@ -135,7 +138,7 @@ Predicted Marks: 85.63
 - Deploy application online
 - Improve dataset size
 
----
+
 
 ## 👩‍💻 Author
 

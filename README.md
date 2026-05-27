@@ -97,15 +97,15 @@ Input:
 
 ```
 Study Hours: 5
-Attendance: 90%
+Attendance: 95%
 Sleep Hours: 7
-Previous Marks: 60
+Previous Marks: 80
 ```
 
 Output:
 
 ```
-Predicted Marks: 68
+Predicted Marks: 85.63
 ```
 
 
